@@ -3,10 +3,6 @@ djangorestframework-simplejwt==4.4.0
 cssutils==1.0.2
 Django==2.2.1
 django-category==2.0.1
-django-chartjs==1.5.0
-django-ckeditor==5.9.0
-django-crispy-forms==1.7.2
-django-easy-pdf==0.1.1
 django-js-asset==1.2.2
 django-widget-tweaks==1.4.5
 mccabe==0.6.1
@@ -14,16 +10,7 @@ mkdir==2019.4.13
 mysql-connector-python==8.0.16
 mysqlclient==1.4.2.post1
 orderdict==2019.9.25
-passlib==1.7.1
-pbr==5.1.3
-Pillow==7.1.1
-python-daemon==2.2.4
-python-dateutil==2.8.0
-python-dotenv==0.10.3
 uritemplate==3.0.0
 urllib3==1.25.3
-values==2019.4.13
-webencodings==0.5.1
-Werkzeug==0.15.5
 wrapt==1.11.2
 write==2019.4.13

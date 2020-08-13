@@ -3,7 +3,6 @@ djangorestframework-simplejwt==4.4.0
 cssutils==1.0.2
 Django==2.2.1
 django-category==2.0.1
-mkdir==2019.4.13
 mysql-connector-python==8.0.16
 mysqlclient==1.4.2.post1
 urllib3==1.25.3

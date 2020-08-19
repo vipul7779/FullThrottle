@@ -11,6 +11,7 @@ from django.http import JsonResponse
 from django.core.serializers import serialize
 
 def printing(request):
+    # return HttpResponse("hii")
     return render(request,"test.html")
 
 def members_detail(request):  

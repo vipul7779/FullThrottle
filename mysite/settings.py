@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '4i#wy23ee#lyu)a)cn^lz4o*=fb6hd8q=0xt223na5(405#64p'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['vipulproject.herokuapp.com','127.0.0.1']
 
@@ -86,6 +86,12 @@ DATABASES = {
         'HOST': '127.0.0.1',
     }
 }
+# DATABASES = {
+#     'default' : {
+#         'ENGINE' : 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR,'db.sqlite3'),
+#     }
+# }
 
 
 # Password validation

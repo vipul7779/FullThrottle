@@ -19,5 +19,12 @@ from polls import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("members_detail/",views.members_detail)
+    path("",views.printing),
+    # path("",views.foreignkeyTest),
+    path("members_detail/",views.members_detail),
+    # path("set/",views.setSesession),
+    # path("get/",views.getSession),
+    # path("getCookie/",views.getCookie),
+    # path("setCookie/",views.setCookie),
+    
 ]

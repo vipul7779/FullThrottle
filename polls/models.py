@@ -1,12 +1,9 @@
 from django.db import models
 
 class Date(models.Model):
-     #id = models.ForeignKey('Member', on_delete = models.CASCADE, null=True)
      user_id = models.IntegerField()
-
      start_time = models.DateTimeField('Start Time')
      end_time = models.DateTimeField('End Time')
-    #  counter = models.IntegerField()
      counter = models.IntegerField()
 
      class Meta:
@@ -15,7 +12,6 @@ class Date(models.Model):
 class Member_Details(models.Model):
     real_name = models.CharField(max_length = 100)
     tz = models.CharField(max_length=100)
-    #activity_periods = models.ForeignKey(Date, related_name="real_name" ,on_delete = models.CASCADE, null=True) # models.ForeignKey('Date', on_delete = models.CASCADE, null=True)
     activity_periods = models.ForeignKey("Date", on_delete = models.CASCADE, null=True) # models.ForeignKey('Date', on_delete = models.CASCADE, null=True)
 
 class Member(models.Model):
